@@ -10,8 +10,10 @@ def long_planeteer_calls(calls)
   calls.each { |x| x.size > 4 }
   if calls.include?(false) 
     false 
-  else
-    true 
+  elsif calls.all?(false)
+    false
+  else 
+    true
   end   
 end
 
