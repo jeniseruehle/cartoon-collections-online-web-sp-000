@@ -1,6 +1,5 @@
 def roll_call_dwarves(array)
-  array.each_with_index.map { |dwarf, index| puts " #{index+1}. #{dwarf}" }.join
-end
+  array.each_with_index.map { |dwarf, index| puts " #{index+1}. #{dwarf}" }
 
 def summon_captain_planet# code an argument here
   # Your code here
