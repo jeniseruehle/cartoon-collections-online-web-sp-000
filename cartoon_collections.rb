@@ -8,7 +8,11 @@ end
 
 def long_planeteer_calls(calls)
   calls.each { |chars| chars.size }
-  if calls.include?  
+  if calls.include? chars.size > 4
+    return true 
+  else
+    false 
+  end   
 end
 
 def find_the_cheese# code an argument here
