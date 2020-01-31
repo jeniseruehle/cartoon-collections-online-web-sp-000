@@ -8,10 +8,6 @@ end
 
 def long_planeteer_calls(calls)
   calls.any? { |x| x.size >= 4 }
-  if calls.include?(false) 
-    false 
-  else 
-    true
   end   
 end
 
